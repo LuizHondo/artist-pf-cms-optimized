@@ -1,0 +1,35 @@
+.featured {
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+}
+
+.sectionTitle {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+.seeAll {
+  margin-top: var(--space-xl);
+  text-align: center;
+}
+
+.seeAllLink {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 2px;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.seeAllLink:hover {
+  color: var(--color-text);
+  border-color: var(--color-text);
+}
